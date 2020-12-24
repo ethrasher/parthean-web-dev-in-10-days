@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SAMStagram</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="index.html" target="_self">News Feed</a>
+            <h1>SAMS-tagram</h1>
+        </div>
+
+        <div class="profileContainer">
+            <h3>Name</h3>
+            <p id="profileName"></p>
+            <h3>Photo</h3>
+            <img width=50% id="profileImage">
+            <h3>Bio</h3>
+            <p class="bioDescription" id="profileBio"></p>
+            <h2>Edit Profile</h2>
+            <form id="editProfile">
+                <label>Name</label>
+                <input type="text" id="profile-name"><br>
+                <label>Image URL</label>
+                <input type="text" id="profile-image-url"><br>
+                <label>Bio</label>
+                <input type="text" id="profile-bio"><br><br>
+                <input type="submit" value="Save">
+            </form>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        <script src="profilePage.js"></script>
+    </body>
+</html>

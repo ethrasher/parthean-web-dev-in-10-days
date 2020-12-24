@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SAMStagram</title>
+        <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="header">
+            <a href="profilePage.html" target="_self">Profile</a>
+            <h1>SAMS-tagram</h1>
+        </div>
+
+        <div class="container">
+
+            <div class="whiteBox">
+                <p> New Post! </p>
+                <form id="form1">
+                    <p>Image URL</p>
+                    <input type="text" id="image-url"><br>
+                    <p>Caption</p>
+                    <input type="text" id="caption"><br><br>
+                    <input type="submit" value="Post">
+                </form>
+            </div>
+
+            <div id="postContainer">
+            </div> 
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.9.3/firebase-storage.js"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
