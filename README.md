@@ -2,6 +2,9 @@
 Originally from this set of tutorials and practice ideas: https://parthean.gitbook.io/web-dev-in-10-days/
 Each day provided a tutorial or example problem that would use some of what we learned the previous days and a good amount of googling to solve. 
 
+## How to Run
+Except for Day 8 and 9 (in which case the firestore project it references must be re-set up), no extra steps are needed, just drag index.html into a browser window to run that day's project.
+
 ## Day 1
 Tutorial: setting up the env and Hello World html website
 
